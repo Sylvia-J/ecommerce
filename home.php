@@ -5,7 +5,7 @@
 <title>Home</title>
 </header>
 <body>
-<button href=" delete.php" > Delete Account</button>
+ <a class="btn btn-sm btn-success"href=" delete.php?user_id=<?php print $prod_row["user_id"]; ?>" role="button">Delete Account</a>
  
 </body>
 </html>
